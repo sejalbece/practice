@@ -13,7 +13,7 @@ namespace practice
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a string"); 
-            string s1 = Console.ReadLine();
+            string s1 = Console.ReadLine(); 
             string temp = s1;
             s1 = s1.Replace(" ", string.Empty);
             Console.WriteLine($"The original string is: {temp}");
