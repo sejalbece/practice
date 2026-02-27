@@ -22,7 +22,7 @@ namespace practice
             {
                 Console.Write(s1[0] + " : ");
                 int count = 0;
-                for (int i = 0; i < s1.Length; i++)
+                for (int i = 0; i < s1.Length; i++) 
                 {
                     if (s1[0] == s1[i])
                     { 
